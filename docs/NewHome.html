@@ -1,0 +1,43 @@
+<style>
+
+    
+    .animation{
+        animation: move;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+    }
+
+  @keyframes move{
+      0% {
+          color: black;
+          
+      }
+      25%{
+          color: red;
+          transform: translateX(200px);
+      }
+
+      50%{
+          color: green;
+          transform: translateX(300px);
+      }
+
+      75%{
+          color: purple;
+          transform: translateX(200px);
+      }
+
+      100%{
+          color: black;
+          transform: translateX(0px);
+      }
+  }
+
+
+</style>
+
+<div class="animation">
+<h1>
+New Home
+</h1>
+</div>
