@@ -15,10 +15,10 @@
 			$("#header").load("header.html");
 		})
 
-		$.get('https://ipapi.co/8.8.8.8/country/', function (data) {
-			console.log(data)
-			if (data == "US") {
-				window.location = "us.scuderiapacifica.com";
+		$.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=93da069059ca42718ec93aa9b01697e4", function (data) {
+			console.log(data.country_code);
+			if (data.country_code == "US"){
+				location.href = "https://us.scuderiapacifica.com";
 			}
 		})
 	</script>
