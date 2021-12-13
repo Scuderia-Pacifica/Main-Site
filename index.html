@@ -14,25 +14,32 @@
 		$(function () {
 			$("#header").load("header.html");
 		})
+
+		$.get('https://ipapi.co/8.8.8.8/country/', function (data) {
+			console.log(data)
+			if (data == "US") {
+				window.location = "us.scuderiapacifica.com";
+			}
+		})
 	</script>
-	
+
 	<title>Scuderia Pacifica</title>
 	<link rel="shortcut icon" href="images/Favicon.ico" type="image/x-icon">
 	<!-- Social Media Stuff -->
-    <meta name="description" content="An upcoming team trying to introduce youth to Motorsports">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.scuderiapacifica.com">
+	<meta name="description" content="An upcoming team trying to introduce youth to Motorsports">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://www.scuderiapacifica.com">
 	<meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.scuderiapacifica.com">
-    <meta property="og:title" content="Scuderia Pacifica">
-    <meta property="og:description" content="c">
-    <meta property="og:image" content="https://www.scuderiapacifica.com/images/BackgroundImage.png">
-    <!-- Special Twitter Embeds -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.scuderiapacifica.com">
-    <meta property="twitter:title" content="Scuderia Pacifica">
-    <meta property="twitter:description" content="An upcoming team trying to introduce youth to Motorsports">
-    <meta property="twitter:image" content="https://www.scuderiapacifica.com/images/BackgroundImage.png">
+	<meta property="og:url" content="https://www.scuderiapacifica.com">
+	<meta property="og:title" content="Scuderia Pacifica">
+	<meta property="og:description" content="c">
+	<meta property="og:image" content="https://www.scuderiapacifica.com/images/BackgroundImage.png">
+	<!-- Special Twitter Embeds -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://www.scuderiapacifica.com">
+	<meta property="twitter:title" content="Scuderia Pacifica">
+	<meta property="twitter:description" content="An upcoming team trying to introduce youth to Motorsports">
+	<meta property="twitter:image" content="https://www.scuderiapacifica.com/images/BackgroundImage.png">
 
 	<!-- Style.css override -->
 	<style>
