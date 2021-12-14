@@ -44,7 +44,7 @@ header {
 }
 
 .nav-area li a:hover {
-    background: #fff;
+    /* background: #fff; */
     color: #333;
 }
 
