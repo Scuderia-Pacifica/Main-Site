@@ -1,8 +1,8 @@
-function setCookie(cname, cvalue, exdays) {
+function setCookie(cname, cvalue, domain, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     let expires = "expires=" + d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    document.cookie = cname + "=" + cvalue + ";" + "domain = " + domain + expires + ";path=/";
 }
 
 function getCookie(cname) {
@@ -19,18 +19,4 @@ function getCookie(cname) {
         }
     }
     return "";
-}
-
-if (getCookie("lang") == "EN") {
-    location = "https://fr.scuderiapacifica.com";
-} else {
-    $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=93da069059ca42718ec93aa9b01697e4", function (data) {
-        console.log(data.country_code);
-        if (data.country_code == "ES") {
-            location = "https://es.scuderiapacifica.com";
-        } else if (data.country_code == "FR") {
-        } else {
-            location = "https://en.scuderiapacifica.com";
-        }
-    })
 }
