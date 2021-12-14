@@ -21,7 +21,7 @@ function getCookie(cname) {
     return "";
 }
 
-if (getCookie("lang") == EN) {
+if (getCookie("lang") == "EN") {
     location = "https://fr.scuderiapacifica.com";
 } else {
     $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=93da069059ca42718ec93aa9b01697e4", function (data) {
