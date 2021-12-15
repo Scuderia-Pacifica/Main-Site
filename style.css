@@ -36,6 +36,7 @@ header {
 
 .nav-area li a {
     color: #fff;
+    fill: #fff;
     text-decoration: none;
     padding: 5px 20px;
     font-family: poppins;
@@ -45,6 +46,7 @@ header {
 
 .nav-area li a:hover {
     color: #ffcc00;
+    fill: #ffcc00;
 }
 
 .logo {
