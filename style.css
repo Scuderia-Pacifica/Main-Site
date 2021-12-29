@@ -23,6 +23,17 @@ header {
     position: relative
 }
 
+.footer {
+    width: 100vw;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    bottom: 0;
+}
+
 .nav-area {
     text-align: center;
     float: right;
