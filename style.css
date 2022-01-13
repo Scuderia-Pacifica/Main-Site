@@ -40,6 +40,10 @@ body {
     color: #233dff;
 }
 
+.text img a:hover {
+    filter: invert(100%);
+}
+
 .header-right {
     float: right;
 }
