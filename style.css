@@ -79,6 +79,10 @@ body {
     color: #000;
 }
 
+.text img a:hover {
+    filter: invert(100%);
+}
+
 .text h1 {
     color: #fff;
     font-size: 5vh;
