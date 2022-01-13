@@ -67,6 +67,7 @@ body {
     border-radius: 4px;
     line-height: 25px;
     display: inline-block;
+    border: 1px;
 }
 
 .text a:hover {
