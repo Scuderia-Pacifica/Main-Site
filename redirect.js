@@ -1,20 +1,23 @@
 function load() {
     if (getCookie("lang") == "EN") {
-        location = "https://en.scuderiapacifica.com";
+        location = "https://en.scuderiapacifica.org";
     } else if (getCookie("lang") == "ES") {
-        location = "https://es.scuderiapacifica.com";
+        location = "https://es.scuderiapacifica.org";
     } else if (getCookie("lang") == "FR") {
-        location = "https://fr.scuderiapacifica.com";
+        location = "https://fr.scuderiapacifica.org";
     } else {
-        $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=93da069059ca42718ec93aa9b01697e4", function (data) {
-            console.log(data.country_code);
-            if (data.country_code == "ES") {
-                location = "https://es.scuderiapacifica.com";
-            } else if (data.country_code == "FR") {
-                location = "https://fr.scuderiapacifica.com";
-            } else {
-                location = "https://en.scuderiapacifica.com";
-            }
-        })
+        const nav = navigator.language
+
+        switch (nav) {
+            case "es":
+                location = "https://es.scuderiapacifica.org"
+                break
+            case "fr":
+                location = "https://fr.scuderiapacifica.org"
+                break
+            default:
+                location = "https://en.scuderiapacifica.org"
+                break
+        }
     }
 }
