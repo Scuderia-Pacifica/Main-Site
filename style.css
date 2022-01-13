@@ -52,6 +52,22 @@ body {
     text-align: center;
 }
 
+.text a {
+    padding: 20px 10px;
+    color: #233dff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.text a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 .text h1 {
     color: #fff;
     font-size: 5vh;
