@@ -9,6 +9,10 @@ body {
     overflow: hidden;
 }
 
+.sec2 {
+    height: -100vh;
+}
+
 .header {
     overflow: hidden;
     padding: 20px 10px;
