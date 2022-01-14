@@ -6,6 +6,7 @@ body {
     height: 100vh;
     background-color: #233dff;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .header {
