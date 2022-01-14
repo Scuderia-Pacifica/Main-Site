@@ -84,8 +84,8 @@
     <script>
         const topbar = document.getElementById("topbar")
 
-        document.onscroll = function(e) {
-            if (e.target.scrollTop > 5) {
+        window.onscroll = function(e) {
+            if (window.pageYOffset >= 5) {
                 topbar.className = "fixed topbar"
             } else {
                 topbar.className = "fixed"
