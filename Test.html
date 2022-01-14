@@ -38,18 +38,6 @@
     <meta property="twitter:description" content="An upcoming team trying to introduce youth to motorsports">
     <meta property="twitter:image" content="https://www.scuderiapacifica.org/images/background.png">
 
-    <script>
-        const topbar = document.getElementById("topbar")
-
-        body.onscroll = function(e) {
-            if (e.target.scrollTop > 5) {
-                topbar.className = "fixed topbar"
-            } else {
-                topbar.className = "fixed"
-            }
-        }
-    </script>
-
     <!-- Style.css override -->
     <style>
 
@@ -92,4 +80,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        const topbar = document.getElementById("topbar")
+
+        document.onscroll = function(e) {
+            if (e.target.scrollTop > 5) {
+                topbar.className = "fixed topbar"
+            } else {
+                topbar.className = "fixed"
+            }
+        }
+    </script>
 </body>
