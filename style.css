@@ -25,14 +25,6 @@ body {
     z-index: 1;
 }
 
-.burger {
-    display: block;
-    background-color: #fff;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-}
-
 .topbar {
     background-color: #000;
 }
