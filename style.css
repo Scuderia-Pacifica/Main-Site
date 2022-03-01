@@ -12,7 +12,7 @@ background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
     background-size: cover;
     background-position: center center;
-    background-color: #233dff;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #233dff;
     background-repeat: no-repeat;
     display: block;
     height: 100vh;
