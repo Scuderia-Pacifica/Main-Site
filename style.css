@@ -2,6 +2,7 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     position: relative;
     margin: 0%;
+    height: 200vh;
     /* overflow: hidden; */
 }
 
