@@ -11,7 +11,7 @@ background {
     /* TODO: move to a different style element */
     background-color: #01050a;
     display: block;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -21,7 +21,7 @@ img1 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -31,7 +31,7 @@ img2 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -41,7 +41,7 @@ img3 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -51,7 +51,7 @@ img4 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -97,12 +97,11 @@ img4 {
 }
 
 .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: auto;
     text-align: center;
-    width: 65%;
+    display: block;
+    width: 75%;
 }
 
 .text img {
