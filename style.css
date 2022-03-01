@@ -1,6 +1,7 @@
 body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     position: relative;
+    margin: 0%;
     /* overflow: hidden; */
 }
 
@@ -12,10 +13,6 @@ top {
     height: 100vh;
     background-color: #233dff;
     background-repeat: no-repeat;
-}
-
-.sec2 {
-    height: -100vh;
 }
 
 .fixed {
