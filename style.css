@@ -9,7 +9,7 @@ body {
 background {
     position: relative;
     /* TODO: move to a different style element */
-    background-color: #233dff;
+    background-color: #01050a;
     display: block;
     height: 100vh;
     width: 100%;
@@ -20,8 +20,8 @@ img1 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+    /* height: 100vh; */
+    width: 100vh;
 }
 
 .fixed {
