@@ -11,13 +11,14 @@ background {
     /* TODO: move to a different style element */
     background-color: #01050a;
     display: block;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
 img1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
-    position: absolute;
+    position: relative;
+    display: flex;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -27,21 +28,23 @@ img1 {
 
 img2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
-    position: absolute;
+    position: relative;
+    display: flex;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
 img3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
-    position: absolute;
+    position: relative;
+    display: flex;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -97,12 +100,14 @@ img4 {
 }
 
 .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin: auto;
     text-align: center;
     width: 65%;
+    padding: 10px;
 }
 
 .text img {
