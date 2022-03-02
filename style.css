@@ -7,12 +7,10 @@ body {
     position: relative;
     margin: 0%;
     height: auto;
-    /* overflow: hidden; */
 }
 
 background {
     position: relative;
-    /* TODO: move to a different style element */
     background-color: #01050a;
     display: block;
     height: auto;
@@ -103,11 +101,21 @@ img4 {
     padding-right: 5px;
 }
 
+.disclaimer {
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.disclaimer b1 {
+    color: #fff;
+    font-size: 15px;
+}
+
 .text {
     position: relative;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     margin: auto;
     text-align: center;
     width: 65%;
