@@ -11,7 +11,7 @@ body {
 
 background {
     position: relative;
-    background-color: #01050a;
+    background-color: #202022;
     display: block;
     height: auto;
     width: 100%;
@@ -21,38 +21,6 @@ img1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
     position: relative;
     display: flex;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-}
-
-img2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
-    position: relative;
-    display: flex;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-}
-
-img3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
-    position: relative;
-    display: flex;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-}
-
-img4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/background.png");
-    position: absolute;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
