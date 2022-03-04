@@ -71,6 +71,11 @@ img2 {
     padding-right: 5px;
 }
 
+.header-left {
+    float: left;
+    padding-left: 5px;
+}
+
 .disclaimer {
     position: absolute;
     margin: auto;
