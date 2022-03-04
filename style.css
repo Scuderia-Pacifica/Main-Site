@@ -17,6 +17,14 @@ background {
     width: 100%;
 }
 
+background half {
+    position: relative;
+    background-color: #202022;
+    display: flex;
+    height: auto;
+    width: 50vw;
+}
+
 .topbar {
     top: 0;
     left: 0;
