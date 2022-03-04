@@ -34,30 +34,32 @@
 
     <!-- Style.css override -->
     <style>
-
+        background {
+            min-height: 100vh;
+        }
     </style>
 </head>
 
 <body>
-    <header>
-        <div class="page">
-            <header id="header"></header>
-            <div id="welTxt" class="text">
-                <a style="border: none" href="javascript:void(0);" onclick="setCookie('lang', 'EN', 'scuderiapacifica.org'); load();">
-                    <img alt="English" src="images/lang/en-flag.png">
-                    <br> EN
-                </a>
-                <a style="border: none" href="javascript:void(0);" onclick="setCookie('lang', 'ES', 'scuderiapacifica.org'); load();">
-                    <img alt="Español" src="images/lang/es-flag.png">
-                    <br> ES
-                </a>
-                <a style="border: none" href="javascript:void(0);" onclick="setCookie('lang', 'FR', 'scuderiapacifica.org'); load();">
-                    <img alt="Français" src="images/lang/fr-flag.png">
-                    <br> FR
-                </a>
+    <div class="page">
+        <!-- <header id="header" class="header"></header> -->
+        <background>
+            <div class="text">
+                <h1>
+                    <a style="border: none" href="javascript:void(0);" onclick="setCookie('lang', 'EN', 'scuderiapacifica.org'); load();">
+                        <img alt="English" src="images/lang/en-flag.png">
+                        <br> EN
+                    </a>
+                    <a style="border: none" href="javascript:void(0);" onclick="setCookie('lang', 'ES', 'scuderiapacifica.org'); load();">
+                        <img alt="Español" src="images/lang/es-flag.png">
+                        <br> ES
+                    </a>
+                    <a style="border: none" href="javascript:void(0);" onclick="setCookie('lang', 'FR', 'scuderiapacifica.org'); load();">
+                        <img alt="Français" src="images/lang/fr-flag.png">
+                        <br> FR
+                    </a>
+                </h1>
             </div>
-
-    </header>
+        </background>
+    </div>
 </body>
-
-</html>
