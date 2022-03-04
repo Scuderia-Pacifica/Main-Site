@@ -23,7 +23,7 @@ img1 {
     background-position: 75% center;
     background-repeat: no-repeat;
     height: auto;
-    width: 65%;
+    width: 50vw;
 }
 
 img2 {
@@ -32,7 +32,7 @@ img2 {
     background-position: 75% center;
     background-repeat: no-repeat;
     height: auto;
-    width: 65%;
+    width: 50vw;
 }
 
 .topbar {
