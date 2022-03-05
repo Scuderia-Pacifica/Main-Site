@@ -35,6 +35,10 @@ img2 {
     width: 50vw;
 }
 
+.instagram-media {
+    margin: auto;
+}
+
 .topbar {
     top: 0;
     left: 0;
